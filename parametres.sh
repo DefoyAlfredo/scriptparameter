@@ -5,7 +5,6 @@ if [ "$(whoami)" != "root" ]; then
     echo "Este script necesita ser ejecutado como root"
     exit 1
     fi
-
 # Instalar sudo
 apt-get update
 apt-get install sudo

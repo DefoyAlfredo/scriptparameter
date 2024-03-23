@@ -8,7 +8,7 @@ fi
 
 # Instalar sudo
 apt-get update
-apt-get install sudo
+apt-get install -y sudo
 
 # Solicitar nombre de usuario a agregar al archivo sudoers
 read -p "Ingrese el nombre de usuario a agregar al archivo sudoers: " username
